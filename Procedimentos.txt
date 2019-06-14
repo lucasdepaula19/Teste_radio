@@ -1,0 +1,31 @@
+Caminho do formulário da pesquisa:
+C:\CA\SDM\site\mods\www\htmpl\default\do_svy.htmpl
+
+caminho do CSS:
+C:\CA\SDM\site\mods\www\wwwroot\css
+
+Perguntas renderizadas na tela através de pdm_list
+
+consulta:
+where="owning_survey_question = $question.id"
+
+
+exemplo de formuláiro: http://mctycasm-h-app:8080/CAisd/pdmweb.exe?OP=DO_SURVEY+SID=0+SVY_ID=400002+CNT_ID=BD62D1C8FF7A034EB24E72AE20DD5EE0+CNTXT_PERSID=cr:cr:445330
+
+Classes css
+requiredlabeltext
+labeltext
+
+.z_requiredlabeltext{COLOR:#333333;FONT:bold 14px CA Sans-Regular,Verdana,Arial,Helvetica,sans-serif;}
+.z_labeltext{FONT-FAMILY:CA Sans-Regular,Verdana,Arial,helvetica,sans-serif;FONT-SIZE:14px;color:#333333;}
+
+
+#333333
+
+labelfd
+
+#13d623
+
+445330
+
+445330

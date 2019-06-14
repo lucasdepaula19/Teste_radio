@@ -1,0 +1,68 @@
+
+/* Apenas para centralizar o form na página */
+form {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 3em;
+}
+
+/* ////////////////////////////////////// */
+
+.exemplo1 input[type=radio]{
+    display:none; /* Esconde os inputs */
+}
+
+.exemplo1 label {
+    cursor: pointer;
+}
+ 
+.exemplo1 input[type=radio] + label{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 25px;
+    margin:0 10px 0 0;
+    background-image:url(http://www.webcis.com.br/images/imagens-noticias/checkbox/ico-master.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+ 
+.exemplo1 input[type=radio]:checked + label{
+    background-position:0 -30px;
+}
+ 
+/* ////////////////////////////////////// */
+
+.exemplo2 input[type=radio]{
+    display:none; /* Esconde os inputs */
+}
+ 
+.exemplo2 label {
+    cursor: pointer; /* Inclui a mãozinha */
+}
+
+.exemplo2 input[type="radio"] + label:before {
+    border: 1px solid #5D5C5C;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+    border-radius:4px;
+}
+ 
+.exemplo2 input[type="radio"]:checked + label:before {
+    background: rgb(110, 199, 27);
+    color: #FFF;
+    content: "\2713";
+    text-align: center;
+}
+ 
+.exemplo2 input[type="radio"]:checked + label:after {
+    font-weight: bold;
+}
+
+
+
