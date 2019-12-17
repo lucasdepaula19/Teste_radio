@@ -1,16 +1,19 @@
-Caminho do formulário da pesquisa:
+Caminho do formulï¿½rio da pesquisa:
 C:\CA\SDM\site\mods\www\htmpl\default\do_svy.htmpl
 
 caminho do CSS:
 C:\CA\SDM\site\mods\www\wwwroot\css
 
-Perguntas renderizadas na tela através de pdm_list
+Perguntas renderizadas na tela atravï¿½s de pdm_list
 
 consulta:
 where="owning_survey_question = $question.id"
 
+Exemplo de customizaÃ§Ã£o na tela de pesquisa do CA
+http://forum.servicedeskusers.com/forums/topic/7158-modify-survey-view_svyhtmpl/
 
-exemplo de formuláiro: http://mctycasm-h-app:8080/CAisd/pdmweb.exe?OP=DO_SURVEY+SID=0+SVY_ID=400002+CNT_ID=BD62D1C8FF7A034EB24E72AE20DD5EE0+CNTXT_PERSID=cr:cr:445330
+
+exemplo de formulï¿½iro: http://mctycasm-h-app:8080/CAisd/pdmweb.exe?OP=DO_SURVEY+SID=0+SVY_ID=400002+CNT_ID=BD62D1C8FF7A034EB24E72AE20DD5EE0+CNTXT_PERSID=cr:cr:445330
 
 Classes css
 requiredlabeltext
