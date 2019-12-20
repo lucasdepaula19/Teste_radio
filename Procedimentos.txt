@@ -13,7 +13,7 @@ Exemplo de customização na tela de pesquisa do CA
 http://forum.servicedeskusers.com/forums/topic/7158-modify-survey-view_svyhtmpl/
 
 
-exemplo de formul�iro: http://mctycasm-h-app:8080/CAisd/pdmweb.exe?OP=DO_SURVEY+SID=0+SVY_ID=400002+CNT_ID=BD62D1C8FF7A034EB24E72AE20DD5EE0+CNTXT_PERSID=cr:cr:445330
+exemplo de formul�iro: http://mctycasm-h-app:8080/CAisd/pdmweb.exe?OP=DO_SURVEY+SID=0+SVY_ID=400002+CNT_ID=BD62D1C8FF7A034EB24E72AE20DD5EE0+CNTXT_PERSID=cr:445330
 
 Classes css
 requiredlabeltext
